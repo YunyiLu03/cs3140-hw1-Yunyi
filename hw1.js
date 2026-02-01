@@ -86,18 +86,15 @@ const student = {
 };
 
 // ---------- Test Output ----------
-// Part 1
 const numbers = [1, 2, 3, 4, 5];
 console.log("Sum:", sum(numbers));
 console.log("Average:", average(numbers));
 console.log("Max:", max(numbers));
 console.log("Min:", min(numbers));
 
-// Part 2
 console.log("Capitalize:", capitalize("hello"));
 console.log("Reverse:", reverse("hello"));
 console.log("Vowel Count:", countVowels("hello"));
 
-// Part 3
 console.log("Student Average:", student.getAverage());
 console.log("Honor Roll:", student.isHonorRoll());
